@@ -1,0 +1,20 @@
+
+<ion-content>
+  <div class="ion-padding">
+
+    <div *ngFor="let profile of profiles$ | async">
+      <ion-card class="card">
+        <ion-card-header padding text-center>
+          <ion-card-title>Welcome Back, {{ profile.userName }}</ion-card-title><br>
+          <img src="assets/borger.png" style="width:200px;height:200px;" class ="center">
+        </ion-card-header>
+
+        <ion-card-content padding text-center>
+          Likes: {{ profile.likes }} <br>
+          Dislikes: {{ profile.dislikes }}
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <ion-button routerLink="/home" class="center" color ="dark" size="small">Back To Home</ion-button>
+  </div>
+</ion-content>

@@ -1,0 +1,87 @@
+{
+  "locations":[
+    {
+      "id":"1",
+      "name":"Chinese Restaurant",
+      "type":"Chinese",
+      "allergies": [
+        "Nut",
+        "Seafood"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "American Restaurant",
+      "type": "American",
+      "allergies": [
+         "Seafood"
+       ]
+    },
+    {
+      "id": "3",
+      "name": "Mexican Restaurant",
+      "type": "Mexican",
+      "allergies": [
+         "AcidReflux",
+         "Dairy"
+       ]
+    },
+    {
+      "id": "4",
+      "name": "Japanese Restaurant",
+      "type": "Japanese",
+      "allergies": [
+         "Seafood"
+       ]
+    },
+    {
+      "id": "5",
+      "name": "Thai Restaurant",
+      "type": "Thai",
+      "allergies": [
+         "Nut",
+         "Seafood"
+       ]
+    },
+    {
+      "id": "6",
+      "name": "Italian Restaurant",
+      "type": "Italian",
+      "allergies": [
+         "Dairy"
+       ]
+    },
+    {
+      "id": "7",
+      "name": "Vietnamese Restaurant",
+      "type": "Vietnamese",
+      "allergies": [
+         "Seafood"
+       ]
+    },
+    {
+      "id": "8",
+      "name": "Indian Restaurant",
+      "type": "Indian",
+      "allergies": [
+         "AcidReflux"
+       ]
+    },
+    {
+      "id": "9",
+      "name": "Greek Restaurant",
+      "type": "Greek",
+      "allergies": [
+         "Dairy"
+       ]
+    },
+    {
+      "id": "10",
+      "name": "European Restaurant",
+      "type": "European",
+      "allergies": [
+         "Seafood"
+       ]
+    }
+  ]
+}

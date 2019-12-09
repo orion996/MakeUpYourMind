@@ -1,0 +1,71 @@
+
+<ion-content>
+  <div class="ion-padding">
+
+  <ion-card>
+    <ion-card-header padding text-center>
+      <ion-card-title>Create Profile</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content padding text-center>
+      <ion-list>
+          <!-- Enter Name -->
+        <ion-item>
+            <ion-label position="floating">Name</ion-label>
+            <ion-input [(ngModel)]= "userName"></ion-input>
+        </ion-item>
+
+        <!-- Select Preferences (Likes) -->
+        <ion-item>
+            <ion-label position="floating">Select Likes</ion-label>
+            <ion-select multiple="true" [(ngModel)]="likes">
+              <ion-select-option value="American">American</ion-select-option>
+              <ion-select-option value="Mexican">Mexican</ion-select-option>
+              <ion-select-option value="Chinese">Chinese</ion-select-option>
+              <ion-select-option value="Japanese">Japanese</ion-select-option>
+              <ion-select-option value="Thai">Thai</ion-select-option>
+              <ion-select-option value="Italian">Italian</ion-select-option>
+              <ion-select-option value="Vietnamese">Vietnamese</ion-select-option>
+              <ion-select-option value="Indian">Indian</ion-select-option>
+              <ion-select-option value="Greek">Greek</ion-select-option>
+              <ion-select-option value="European">European</ion-select-option>
+            </ion-select>
+        </ion-item>
+
+        <!-- Select Preferences (Dislikes) -->
+        <ion-item>
+            <ion-label position="floating">Select Dislikes</ion-label>
+            <ion-select multiple="true" [(ngModel)]="dislikes">
+              <ion-select-option value="American">American</ion-select-option>
+              <ion-select-option value="Mexican">Mexican</ion-select-option>
+              <ion-select-option value="Chinese">Chinese</ion-select-option>
+              <ion-select-option value="Japanese">Japanese</ion-select-option>
+              <ion-select-option value="Thai">Thai</ion-select-option>
+              <ion-select-option value="Italian">Italian</ion-select-option>
+              <ion-select-option value="Vietnamese">Vietnamese</ion-select-option>
+              <ion-select-option value="Indian">Indian</ion-select-option>
+              <ion-select-option value="Greek">Greek</ion-select-option>
+              <ion-select-option value="European">European</ion-select-option>
+            </ion-select>
+        </ion-item>
+
+        <!-- Select Allergies -->
+        <ion-item>
+            <ion-label position="floating">Select Allergies</ion-label>
+            <ion-select multiple="true" [(ngModel)]="allergies">
+              <ion-select-option value="Seafood">Seafood</ion-select-option>
+              <ion-select-option value="Dairy">Dairy</ion-select-option>
+              <ion-select-option value="Nut">Nut</ion-select-option>
+              <ion-select-option value="AcidReflux">Acid Reflux</ion-select-option>
+            </ion-select>
+        </ion-item>
+      </ion-list>
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button class="center" (click)="addProfile()" color="dark">Save</ion-button>
+  <ion-button class="center" routerLink="/home" color ="dark" size="small">Back To Home</ion-button>
+
+</div>
+</ion-content>

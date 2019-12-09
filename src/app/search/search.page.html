@@ -1,0 +1,28 @@
+
+<ion-content>
+  <div class="ion-padding">
+
+    <h1 class="center" padding text-center>What is Your Food Mood?</h1>
+
+        <!-- Adventure search -->
+        <div class = "ion-padding">
+          <ion-card class="card" (click)="adventureSearch()">
+            <ion-card-content text-center>
+              <!-- <ion-button color = "dark" size="large" (click)="adventureSearch()" class = "center">Adventure</ion-button> -->
+              <img src="assets/adventure.png" class ="center" style="width:150px;height:150px;">
+              <ion-card-title>Adventure</ion-card-title>
+            </ion-card-content>
+          </ion-card>
+          <br>
+        <!-- Comfort Search -->
+          <ion-card class="card" (click)="comfortSearch()">
+            <ion-card-content text-center>
+                <!-- <ion-button color = "dark" size="large" class = "center">Comfort</ion-button> -->
+                <img src="assets/comfort.png" class ="center" style="width:150px;height:150px;">
+                <ion-card-title>Comfort</ion-card-title>
+            </ion-card-content>
+          </ion-card>
+          <ion-button routerLink="/home" color ="dark" size="small" class = "center">Back To Home</ion-button>
+      </div>
+    </div>
+</ion-content>
